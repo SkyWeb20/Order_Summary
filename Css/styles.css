@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0E7FF;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/pattern-background-desktop.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.card-header {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: -20px;
+}
+
+.card-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.price {
+    color: #333333;
+    font-size: 15px;
+    margin: 2px 0 0 -50px;
+}
+
+.price p {
+    margin-left: -25px;
+    margin-top: -15px;
+}
+
+.button,
+.cancel {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button {
+    background-color: #4C49A2;
+    color: white;
+}
+
+.cancel {
+    font-weight: bold;
+    background-color: transparent;
+    color: #3333338c;
+}
+
+.change-plan {
+    color: #4C49A2;
+    text-decoration: none;
+}
+
+.plan {
+    background-color: #f8f9fe;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.plan a:hover {
+    text-decoration: none;
+}
+
+.cancel:hover {
+    font-weight: bold;
+    color: #333333;
+}
+
+.button:hover {
+    background-color: #766cf1;
+}
+
+@media (max-width: 768px) {
+    body {
+      background-image: url('../img/pattern-background-mobile.svg');
+    }
+  }
